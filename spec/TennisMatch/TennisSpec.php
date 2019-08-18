@@ -2,14 +2,13 @@
 
 namespace spec\TennisMatch;
 
-use TennisMatch\Player;
 use PhpSpec\ObjectBehavior;
+use TennisMatch\Player;
 
 class TennisSpec extends ObjectBehavior
 {
 
     protected $john;
-
     protected $jane;
 
     public function let()
