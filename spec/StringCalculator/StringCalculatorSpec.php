@@ -1,8 +1,7 @@
-<?php 
+<?php
 
 namespace spec\StringCalculator;
 
-use InvalidArgumentException;
 use PhpSpec\ObjectBehavior;
 
 class StringCalculatorSpec extends ObjectBehavior
@@ -30,7 +29,7 @@ class StringCalculatorSpec extends ObjectBehavior
 
     public function it_disallows_negative_numbers()
     {
-        $this->shouldThrow(new InvalidArgumentException('Invalid number provided: -2'))->duringAdd('3,-2');
+        $this->shouldThrow(new \InvalidArgumentException('Invalid number provided: -2'))->duringAdd('3,-2');
     }
 
     public function it_ignores_any_number_that_is_one_thousand_or_greater()

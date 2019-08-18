@@ -2,8 +2,6 @@
 
 namespace StringCalculator;
 
-use InvalidArgumentException;
-
 class StringCalculator
 {
 
@@ -40,7 +38,7 @@ class StringCalculator
     private function guardAgainstInvalidNumber($number)
     {
         if ($number < 0) {
-            throw new InvalidArgumentException("Invalid number provided: {$number}");
+            throw new \InvalidArgumentException("Invalid number provided: {$number}");
         }
     }
 
