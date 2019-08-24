@@ -1,4 +1,7 @@
 # Student's Final Grade
+
+![img](https://img.shields.io/badge/status-complete-green.svg)
+
 Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
 This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
@@ -25,3 +28,6 @@ finalGrade(20, 2);    // 0
 ```
 
 *Use Comparison and Logical Operators*
+
+## More info
+https://www.codewars.com/kata/students-final-grade/train/php
